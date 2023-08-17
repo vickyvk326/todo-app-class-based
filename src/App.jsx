@@ -2,7 +2,7 @@ import { Component, createRef } from "react";
 import "./app.scss";
 import Navbar from "./components/Navbar";
 import AddTask from "./components/AddTask";
-import ShowTask from "./components/showTask";
+import ShowTask from "./components/ShowTask";
 export default class App extends Component {
   state = { currentInput: "", taskList: [], showTask: "all" };
   textInputRef = createRef();
