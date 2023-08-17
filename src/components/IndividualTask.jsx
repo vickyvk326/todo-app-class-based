@@ -36,7 +36,7 @@ export default class IndividualTask extends Component {
               this.handleToggleEdit();
             }}
           >
-            ✎
+            ✏️
           </button>
           <button onClick={() => this.props.handleDeleteTask(task.taskId)}>
             🗑
